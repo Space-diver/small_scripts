@@ -3,6 +3,7 @@
 # This bash script converts mkv files in subfolers to avi files
 
 # The folder that contains subfolders in which the .mkv files are stored.
+# The files are processed in parallel. So it's fast!
 input_dir="base_folder/"
 
 # Function to convert video
