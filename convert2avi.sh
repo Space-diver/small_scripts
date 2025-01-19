@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# This script converts the .mkv files to avi files
+# This script converts the .mkv files to avi files in parallel.
+# It is much faster than doing it manually.
 input_dir="folder/"
 
 cd "$input_dir"
